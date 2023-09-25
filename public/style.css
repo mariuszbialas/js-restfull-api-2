@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap');
+/* @import url(./desktop.css); */
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48,
+    
+}
+
+
+/* --------------------------------------- */
+
+:root {
+    --bgc-primary: #003147;
+    --bgc-secondary: rgb(173, 216, 230);
+    --bgc-content: rgb(230, 230, 230, .3);
+    --content-primary: #fff;
+    --content-secondary: #03a9f4;
+    --content-white-soft: #f8f8f8;
+    --content-white-mute: #f2f2f2;
+    --content-link: #abc;
+    --width-desktop: 960px;
+    --transition: .2s;
+    --step-0: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
+    --step-1: clamp(1.35rem, calc(1.28rem + 0.37vw), 1.56rem);
+    --step-2: clamp(1.62rem, calc(1.50rem + 0.58vw), 1.95rem);
+    --step-3: clamp(1.94rem, calc(1.77rem + 0.87vw), 2.44rem);
+    --step-4: clamp(2.33rem, calc(2.08rem + 1.25vw), 3.05rem);
+    --step-5: clamp(2.80rem, calc(2.45rem + 1.77vw), 3.82rem);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color-scheme: dark;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: var(--step-0);
+}
+
+/* --------------- HEADER--------------- */
+
+header {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    background-color: var(--bgc-primary);
+    z-index: 3;
+}
+
+header h1 {
+    margin-left: 20px;
+    text-align: left;
+}
+
+/* --------------------------------------- */
+
+
+/* --------------- CONTENT --------------- */
+
+main {
+    position: relative;
+    top: 60px;
+    margin-inline: 20px;
+}
+
+/* --------------------------------------- */
+
+
+/* ------ CONTENT-------*/
+
+.title {
+    color: #03a9f4;
+    margin: 20px 0 10px 0;
+}
+
+main .text {
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding: 0 10px;
+    text-align: center;
+    font-size: var(--step-0);
+}
+
+main img {
+    border: 2px solid var(--content-secondary);
+    border-radius: 50%;
+    width: 100px;
+    margin: 5px 10px;
+}
+
+/* --------------------------------------- */
+
+.content {
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+/* --------------- DESKTOP --------------- */
+
+@media (min-width: 750px) {
+
+    header {
+        position: fixed;
+        top: 0;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+        background-color: var(--bgc-primary);
+        z-index: 3;
+    }
+    
+    header h1 {
+        width: 600px;
+        margin-inline: auto;
+        text-align: left;
+    }
+    
+    /* --------------------------------------- */
+    
+    
+    /* --------------- CONTENT --------------- */
+    
+    main {
+        position: relative;
+        top: 100px;
+        width: 600px;
+        margin-inline: auto;
+    }
+}

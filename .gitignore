@@ -1,0 +1,8 @@
+# dev
+node_modules
+_backup
+
+src/.DS_Store
+_backups/.DS_Store
+.DS_Store
+src/test.rest
