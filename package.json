@@ -1,7 +1,7 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "RestFull Api Test",
+  "description": "RestFull Api",
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js"
