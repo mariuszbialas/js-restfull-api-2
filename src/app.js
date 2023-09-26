@@ -21,6 +21,10 @@ app.use('/v1/expierience', v1ExpierienceRouter);
 app.use('/v1/blog', v1BlogRouter);
 app.use('/v1/download', v1DownloadRouter);
 app.use('/v1/projects', v1ProjectsRouter);
+app.use('/', (req, res) => res.status(200).send({
+  message: 'Welcome to RestFull API',
+  v1: '/v1'
+}));
 
 // INIT
 app.listen(PORT, (err) =>

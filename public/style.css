@@ -142,4 +142,11 @@ main img {
         width: 600px;
         margin-inline: auto;
     }
+
+    main div hr {
+        margin: 10px 0;
+    }
+    main div p {
+        margin-bottom: 5px;
+    }
 }

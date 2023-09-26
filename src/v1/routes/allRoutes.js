@@ -1,29 +1,22 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 
 const router = express.Router();
-const db = require('../database/db.json');
 
 const { showAll } = require('../controllers/showAllControllers');
-router.get('/', showAll);
 
+router.get('/all', showAll);
 
-// DOWNLOAD
-router.get('/download', (req, res) => {
-    try {
-        res.status(200).send(db.download)
-    } catch (err) {
-        res.status(500).send(err);
-    }
-});
+router.get('/', (req, res) => res.send({
+    'info': 'Api für "Über mich" Internetseite',
+    'alles': '/v1/all',
+    'über mich': '/v1/about',
+    'kentnissen': 'v1/knowledge',
+    'ausbildung': 'v1/education',
+    'erfahrung': 'v1/expierience',
+    'blog': 'v1/blog',
+    'download': 'v1/download',
+    'projekte': 'v1/projects',
 
-// PROJECTS
-router.get('/projects', (req, res) => {
-    try {
-        res.status(200).send(db.projects)
-    } catch (err) {
-        res.status(500).send(err);
-    }
-});
+}));
 
 module.exports = router;
