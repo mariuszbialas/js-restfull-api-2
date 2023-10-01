@@ -7,89 +7,106 @@
                 "Vor zwei Jahren habe ich meine Reise in die Welt der Programmierung begonnen. Während dieser Zeit habe ich mein Verständnis für Programmiersprachen erweitert und meine Fähigkeiten in der Webentwicklung kontinuierlich verbessert. Die praktische Anwendung meiner Kenntnisse in verschiedenen Projekten hat mich dazu inspiriert, immer weiter zu lernen und meine Leidenschaft für die Programmierung weiter zu entfachen.",
                 "Am 11. August 2023 habe ich erfolgreich den Kurs Fullstack-Entwickler bei alfatraining Bildungszentrum abgeschlossen. Der Kurse wurde in 4 Abschnitte geteilt: Java-Entwickler, Grundlagen PHP/MySQL, JavaScript Developer und React JavaScript-Bibliothek. Die Zertifikate können in sektion Download auf meiner Website heruntergeladen werden."
             ],
-            "img": "profil-photo.jpeg"
+            "img": "profil-photo.jpeg",
+            "updatedAt": ""
         }
     ],
     "knowledge": [
         {
             "id": 16,
             "name": "Vue.JS",
-            "percent": 40
+            "percent": 40,
+            "updatedAt": ""
         },
         {
             "id": 15,
             "name": "TypeScript",
-            "percent": 45
+            "percent": 45,
+            "updatedAt": ""
         },
         {
             "id": 14,
             "name": "Java SE",
-            "percent": 55
+            "percent": 55,
+            "updatedAt": ""
         },
         {
             "id": 13,
             "name": "PHP",
-            "percent": 55
+            "percent": 55,
+            "updatedAt": ""
         },
         {
             "id": 12,
             "name": "MySQL Database",
-            "percent": 70
+            "percent": 70,
+            "updatedAt": ""
         },
         {
             "id": 11,
             "name": "couchDB/mongoDB",
-            "percent": 40
+            "percent": 40,
+            "updatedAt": ""
         },
         {
             "id": 10,
             "name": "Bootstrap",
-            "percent": 60
+            "percent": 60,
+            "updatedAt": ""
         },
         {
             "id": 9,
             "name": "HTML",
-            "percent": 75
+            "percent": 75,
+            "updatedAt": ""
         },
         {
             "id": 8,
             "name": "CSS",
-            "percent": 65
+            "percent": 65,
+            "updatedAt": ""
         },
         {
             "id": 7,
             "name": "Git/GitHub",
-            "percent": 50
+            "percent": 50,
+            "updatedAt": ""
         },
         {
             "id": 6,
             "name": "VSCode",
-            "percent": 70
+            "percent": 70,
+            "updatedAt": ""
         },
         {
             "id": 5,
             "name": "Eclipse",
-            "percent": 50
+            "percent": 50,
+            "updatedAt": ""
         },
         {
             "id": 4,
             "name": "WebStorm",
-            "percent": 60
+            "percent": 60,
+            "updatedAt": ""
         },
         {
             "id": 3,
             "name": "Deutsch",
-            "percent": 65
+            "percent": 65,
+            "updatedAt": ""
         },
         {
             "id": 2,
             "name": "Englisch",
-            "percent": 50
+            "percent": 50,
+            "updatedAt": ""
         },
         {
             "id": 1,
             "name": "Polnisch - Muttersprache",
-            "percent": 90
+            "percent": 90,
+            "updatedAt": ""
         }
     ],
     "education": [
@@ -98,7 +115,8 @@
             "name": "Berufsbildendes Technikum am Schulzentrum Mechanik-Elektronik",
             "place": "Tarnów, Polen",
             "date": "0/1990 - 06/1995",
-            "description": "Abschluss: Techniker – Elektronik"
+            "description": "Abschluss: Techniker – Elektronik",
+            "updatedAt": ""
         }
     ],
     "expierience": [
@@ -108,7 +126,8 @@
             "place": "Kell am See",
             "name": "Techniker",
             "date": "10/2015 - 12/2018",
-            "description": "Technischer Mitarbeiter für Montage, Wartung und Programierung von sicherheitstechnischen Anlagen (Videoüberwachung, Alarmanlagen, Brandmeldeanlagen.)"
+            "description": "Technischer Mitarbeiter für Montage, Wartung und Programierung von sicherheitstechnischen Anlagen (Videoüberwachung, Alarmanlagen, Brandmeldeanlagen.)",
+            "updatedAt": ""
         },
         {
             "id": 5,
@@ -116,7 +135,8 @@
             "place": "",
             "name": "",
             "date": "04/2015 - 09/2015",
-            "description": "parallel: Minijob Zeitungszusteller"
+            "description": "parallel: Minijob Zeitungszusteller",
+            "updatedAt": ""
         },
         {
             "id": 4,
@@ -124,7 +144,8 @@
             "place": "Lebach",
             "name": "",
             "date": "08/2014 - 03/2015",
-            "description": "Deutsch Sprachkurs B1"
+            "description": "Deutsch Sprachkurs B1",
+            "updatedAt": ""
         },
         {
             "id": 3,
@@ -132,7 +153,8 @@
             "place": "Schmelz-Limbach",
             "name": "CNC-Maschinenbediener",
             "date": "09/2012 - 07/2014",
-            "description": "Technischer Mitarbeiter für Bedienung von Produktionsmaschinen (CNC)."
+            "description": "Technischer Mitarbeiter für Bedienung von Produktionsmaschinen (CNC).",
+            "updatedAt": ""
         },
         {
             "id": 2,
@@ -140,7 +162,8 @@
             "place": "Saarland, Deutschland",
             "name": "",
             "date": "09/2012",
-            "description": ""
+            "description": "",
+            "updatedAt": ""
         },
         {
             "id": 1,
@@ -148,7 +171,8 @@
             "place": "Polen",
             "name": "",
             "date": "10/1996 - 08/2012",
-            "description": ""
+            "description": "",
+            "updatedAt": ""
         }
     ],
     "blog": [
@@ -159,7 +183,8 @@
             "description": "MegaK - Online Kurs: Transpilierung/Kompilierung, Konfiguration der Entwicklungsumgebung, Typen",
             "line": true,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 34,
@@ -168,7 +193,8 @@
             "description": "Show random user (https://randomuser.me/api). Die Anwendung erstellt eine Liste zufälliger Benutzer, die mithilfe der API von der Website randomuser.me abgerufen werden. Im Projekt wurde die Bibliothek Bootstrap 5 verwendet.",
             "line": false,
             "github": "https://github.com/mariuszbialas/react-show-randomuser",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 33,
@@ -177,7 +203,8 @@
             "description": "Ich bin auf der Suche nach einem Team, in dem ich meine erworbenen Kenntnisse in der Praxis anwenden kann.",
             "line": true,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 32,
@@ -186,7 +213,8 @@
             "description": "",
             "line": true,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 31,
@@ -195,7 +223,8 @@
             "description": "",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 30,
@@ -204,7 +233,8 @@
             "description": "Projektarbeit: Fußball-STATS: Neuigkeiten, Berichte und Updates zu nationalen und internationalen Fußball-Meisterschaften, Ligen und Mannschaften.",
             "line": false,
             "github": "https://github.com/mariuszbialas/react-project-footballStats",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 29,
@@ -213,7 +243,8 @@
             "description": "Rest API Aufbau, Front- und Back-end Integration, Classes, Flux/Redux",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 28,
@@ -222,7 +253,8 @@
             "description": "React Router, React State, Serveranbindung DB",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 27,
@@ -231,7 +263,8 @@
             "description": "Einführung und IDE's, JavaScript Frameworks: Angular, Vue und React, Projektplanung, React Komponenten",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 26,
@@ -240,7 +273,8 @@
             "description": "React JavaScript-Bibliothek",
             "line": true,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 25,
@@ -249,7 +283,8 @@
             "description": "Projektarbeit: RESTful API.<br>Das Projekt ist eine RESTful API in ExpresJS programmiert.<br>Datenquelle: CouchDB-Datenbank",
             "line": false,
             "github": "https://github.com/mariuszbialas/js-project-rest-api",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 24,
@@ -258,7 +293,8 @@
             "description": "Projektarbeit: Familienkalender.<br>Das Projekt ist eine JavaScript Vanilla Webseite, die personalisierte Veranstaltungen wie Feiertage, Geburtstage, arbeitsfreie Tage, usw. anzeigt.",
             "line": false,
             "github": "https://github.com/mariuszbialas/js-project-calendar",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 23,
@@ -267,7 +303,8 @@
             "description": "Websocket, KI Einführung, React.JS und Vue.JS Grundlagen",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 22,
@@ -276,7 +313,8 @@
             "description": "Import/Export , WebWorker, Node JS, Node Module, WebServer, Middleware, Database Verbindung, couchDB, Websocker",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 21,
@@ -285,7 +323,8 @@
             "description": "Arrays, Canvas, Objekte, Konstruktoren, Klassen, Prototiping, Iteratoren, Maps, Promisses",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 20,
@@ -294,7 +333,8 @@
             "description": "Projektarbeit: Warenkorb.<br>Die Webseite ist ein E-Shop für Oldtimer-Autoplakate der Marke Opel in verschiedenen Größen. Man kann das ausgewählte Plakat zum Warenkorb hinzufügen. Der Warenkorb wird im lokalen Speicher des Browsers gespeichert.",
             "line": false,
             "github": "https://github.com/mariuszbialas/js-projekt-warenkorb",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 19,
@@ -303,7 +343,8 @@
             "description": "AJAX, Funktionsweise, http-Anfragen, XMLHttpRequest-Objekt, Eigene Bibliothek erstellen, jQuery",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 18,
@@ -312,7 +353,8 @@
             "description": "Objekte, DOM-Manipulation mit JavaScript, HTML-Selektieren, DOM-Elemente anlegen,DOM-Elemente kopieren, verschieben, löschen, Cookies, Webstorage.",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 17,
@@ -321,7 +363,8 @@
             "description": "Einbinden in HTML-Seiten, Variablen, Konstanten und Datentypen, Operatoren, Kontrollstrukturen, Bedingte Anweisungen, Bedingte Anweisungen, Schleifen, Funktionen, Funktionen, Arrays.",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 16,
@@ -330,7 +373,8 @@
             "description": "JavaScript Developer",
             "line": true,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 15,
@@ -339,7 +383,8 @@
             "description": "Abschlussprojekt Grundlagen PHP/MySQL: blog-Webseite.<br>Die Webseite hat eine Möglichkeit, Beiträge hinzuzufügen, die in einer MySQL-Datenbank gespeichert werden. Das Hinzufügen von Beiträgen ist nach vorheriger Anmeldung möglich.",
             "line": false,
             "github": "https://github.com/mariuszbialas/php-project-blog",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 14,
@@ -348,7 +393,8 @@
             "description": "Projektarbeit: Forum - Benutzerverwaltung. ",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 13,
@@ -357,7 +403,8 @@
             "description": "Formulare, Grundlagen Datenbanken, SQL-Befehle, MYSQLi, PDO, Interaktion und Risiko, Fehlerprüfung , Externe Dateien.",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 12,
@@ -366,7 +413,8 @@
             "description": "PHP Grundlagen, Webserver einrichten und konfigurieren, HTML und PHP kombinieren, Request/Response, Bedingungen, Operatoren, Arrays, Funktionen.",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 11,
@@ -375,7 +423,8 @@
             "description": "Dynamische Webseiten mit PHP und mySOL",
             "line": true,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 10,
@@ -384,7 +433,8 @@
             "description": "Abschlussprojekt: Mein Kalendar<br>Mein Kalendar ist eine Java-Anwendung, die personalisierte Ereignisse wie Feiertage, Geburtstage, arbeitsfreie Tage, Sportveranstaltungen und Urlaubspläne anzeigt.",
             "line": false,
             "github": "https://github.com/mariuszbialas/java-project-MeinKalendar",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 9,
@@ -393,7 +443,8 @@
             "description": "Abschlussprojekt: Mein Kalendar.",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 8,
@@ -402,7 +453,8 @@
             "description": "Anbindung SQL-Datenbanken und mySQL, Multithreading,Serialisierung/Deserialisierung von Objekten, Erzeugung der Jar-Dateien (Weitergabe fertiger Anwendungen).",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 7,
@@ -411,7 +463,8 @@
             "description": "Lamda-Ausdrücke, Collections, Dynamische Arrays, Generics, Dao Design Patterns, POJO-Klassen, Rekursivität.",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 6,
@@ -420,7 +473,8 @@
             "description": "Objektorientiertes Programmieren (Abstrakte Klassen, Interfaces), GUI Oberfläche (Verwendung von AWT und Swing Steuerelementen, Adapterklassen, innere Klassen, anonyme Klassen Exceptions, Wrapperklassen, Erzeugung von Grafiken, Layout-Manager).",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 5,
@@ -429,7 +483,8 @@
             "description": "Grundlegende Sprachkonzepte (Arrays, Zeichenketten und ihre Verarbeitung), Objektorientiertes Programmieren (Aufbau von Klassen, Vererbung, Polymorphie, Konstruktoren).",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 4,
@@ -438,7 +493,8 @@
             "description": "Grundlegende Sprachkonzepte (Operatoren, Ein-/Ausgabe, Typkonvertierung).",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 3,
@@ -447,7 +503,8 @@
             "description": "Allgemeine Grundlagen (Eclipse: Entwicklungsumgebung, Programmaufbau, Variablen, Gültigkeitsbereiche, Datentypen, Aufzählungstypen), Grundlegende Sprachkonzepte (Erstellung konsolenbasierter Programme).",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 2,
@@ -456,7 +513,8 @@
             "description": "Java-Entwickler Objektorientierte Programmierung",
             "line": true,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         },
         {
             "id": 1,
@@ -465,7 +523,8 @@
             "description": "Die Fullstack-Entwickler Ausbildung beim alfatraining Bildungszentrum dauert bis August 23, insgesamt 5 Monate und 2 Wochen. Der Unterricht findet von Montag bis Freitag von 08:30 bis 15:35 Uhr statt.",
             "line": false,
             "github": "",
-            "url": ""
+            "url": "",
+            "updatedAt": ""
         }
     ],
     "download": [
@@ -473,43 +532,50 @@
             "id": 8,
             "name": "Mein Lebenslauf",
             "url": "./assets/pdf/lebenslauf-bialas.pdf",
-            "img": "download"
+            "img": "download",
+            "updatedAt": ""
         },
         {
             "id": 7,
             "name": "Zertifikat Fullstack Entwickler",
             "url": "./assets/pdf/kombizertifikat.pdf",
-            "img": "download"
+            "img": "download",
+            "updatedAt": ""
         },
         {
             "id": 6,
             "name": "Java-Entwickler",
             "url": "./assets/pdf/zertifikat-java.pdf",
-            "img": "download"
+            "img": "download",
+            "updatedAt": ""
         },
         {
             "id": 5,
             "name": "Grundlagen PHP/MySQL",
             "url": "./assets/pdf/zertifikat-php.pdf",
-            "img": "download"
+            "img": "download",
+            "updatedAt": ""
         },
         {
             "id": 4,
             "name": "Javascript Developer",
             "url": "./assets/pdf/zertifikat-javascript.pdf",
-            "img": "download"
+            "img": "download",
+            "updatedAt": ""
         },
         {
             "id": 3,
             "name": "JavaScript Bibliothek React",
             "url": "./assets/pdf/zertifikat-reactjs.pdf",
-            "img": "download"
+            "img": "download",
+            "updatedAt": ""
         },
         {
             "id": 1,
             "name": "Berufsannerkennungs",
             "url": "./assets/pdf/berufsannerkennungs.pdf",
-            "img": "download"
+            "img": "download",
+            "updatedAt": ""
         }
     ],
     "projects": [
@@ -520,7 +586,8 @@
             "description": "Abschlusprojekt Java SE Kurs bei \"alfatraining\" Bildungszentrum: Mein Kalendar ist eine Java-Anwendung, die personalisierte Ereignisse wie Feiertage, Geburtstage, arbeitsfreie Tage, Sportveranstaltungen und Urlaubspläne anzeigt. Die Anwendung verwendet eine MySQL-Datenbank, um Daten effizient und sicher zu speichern und zu verwalten.",
             "github": "https://github.com/mariuszbialas/java-project-MeinKalendar",
             "url": "",
-            "pics": []
+            "pics": [],
+            "updatedAt": ""
         },
         {
             "id": 6,
@@ -529,7 +596,8 @@
             "description": "Erste Version von einer \"Über mich\" Webseite. Mein Profil mit Kenntnissen, Ausbildung usw.",
             "github": "https://github.com/mariuszbialas/myWebsite",
             "url": "",
-            "pics": []
+            "pics": [],
+            "updatedAt": ""
         },
         {
             "id": 5,
@@ -539,7 +607,9 @@
             "github": "https://github.com/mariuszbialas/warriors",
             "url": "",
             "pics": []
-        },
+        ,
+"updatedAt": ""
+},
         {
             "id": 4,
             "name": "Warriors",
@@ -548,7 +618,9 @@
             "github": "https://github.com/mariuszbialas/warriors",
             "url": "",
             "pics": []
-        },
+        ,
+"updatedAt": ""
+},
         {
             "id": 3,
             "name": "Google Photos Clone",
@@ -557,7 +629,9 @@
             "github": "https://github.com/mariuszbialas/g-photos",
             "url": "https://mariuszbialas.github.io/g-photos/",
             "pics": []
-        },
+        ,
+"updatedAt": ""
+},
         {
             "id": 2,
             "name": "Lieferando Clone",
@@ -566,7 +640,9 @@
             "github": "https://github.com/mariuszbialas/lieferando",
             "url": "https://mariuszbialas.github.io/lieferando/",
             "pics": []
-        },
+        ,
+"updatedAt": ""
+},
         {
             "id": 1,
             "name": "Instagram Clone",
